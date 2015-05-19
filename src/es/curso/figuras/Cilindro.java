@@ -13,7 +13,7 @@ public class Cilindro extends Circulo {
 
     @Override
     public double obtenerArea() {
-        return  super.obtenerArea()+ 2 * Math.PI * this.radio * this.altura;
+        return super.obtenerArea()+ 2 * Math.PI * this.radio * this.altura;
 
     }
 
