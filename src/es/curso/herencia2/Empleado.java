@@ -41,6 +41,36 @@ public abstract class Empleado {
 		this.salarioMes = salarioMes;
 	}
 	 
-    public abstract  void calcularSalario();  
-
+    public abstract  void calcularSalario();
+	
+    @Override
+	public String toString() {
+		return "Empleado [nombre=" + nombre + ", apellido=" + apellido
+				+ ", dni=" + dni + ", salarioMes=" + salarioMes + "]";
+	}
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
